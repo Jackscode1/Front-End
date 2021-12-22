@@ -1,0 +1,40 @@
+.items-page-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .items-wrapper {
+        margin-top: 22px;
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        justify-items: center;
+        padding-bottom: 22px;
+        font-family: 'Montserrat Subrayada', sans-serif;
+    
+        .item-wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid blue;
+            border-radius: 10px;
+            background-color: white;
+            padding: 20px;
+
+            .title{
+                font-size: 25px;
+                
+            }
+            .description {
+                color: blue;
+                font-size: 30px;
+            }
+
+            
+        }
+    
+    }
+}

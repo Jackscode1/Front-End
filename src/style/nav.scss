@@ -1,0 +1,27 @@
+.nav-wrapper {
+    margin-top: 22px;
+    width: 100%; 
+    display: flex;
+    justify-content: space-evenly;
+    
+
+
+    .nav-link {
+        color: lightseagreen;
+        font-family: 'Corinthia', cursive;
+        font-size: 25px;
+        transition: 0.3s ease-in-out;
+        &:hover{
+        color: orangered;
+        }
+    }
+    a {
+        margin: 10px;
+        color: black;
+    }
+    
+
+    a.active {
+        text-decoration: underline;
+    }
+}
